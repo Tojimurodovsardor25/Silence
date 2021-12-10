@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+html,
+head,
+body {
+    height: 100% !important;
+}
+
+.Son {
+    /* background: url(./gif/VKfapZT.gif); */
+    box-shadow: 0px 0px 23px 5px #ffc8009e;
+    border-radius: 50%;
+    background: #ff7600;
+    border: 1px solid #e7a40f;
+    width: 159px;
+    height: 159px;
+    filter: drop-shadow(-4px 1px 29px rgb(233, 50, 18));
+    position: absolute;
+    top: 31px;
+    display: flex;
+    align-items: center;
+    left: 60px;
+    justify-content: center;
+    animation: sun infinite 3s;
+}
+
+/* #body {
+    background: linear-gradient(180deg, rgba(166, 258, 16, 0.0), rgb(255 255 255 / 4%) 59px, rgb(255 255 249) 69px, rgb(0 149 255 / 97%) 407px, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0) 170px), no-repeat 0 0 !important;
+    background-attachment: fixed !important;
+    background-position: 80% 80% !important;
+    background-repeat: no-repeat !important;
+    height: 100% !important;
+} */
+
+#body {
+    background: linear-gradient(180deg, rgb(6 0 0), rgb(12 0 0) 59px, rgb(0 0 0) 69px, rgb(0 0 0 / 100%) 407px, rgb(0 0 0) 100%, rgba(0, 0, 0, 0) 170px), no-repeat 0 0 !important;
+    background-attachment: fixed !important;
+    /* background-position: 80% 80% !important; */
+    background-repeat: no-repeat !important;
+    height: 100% !important;
+}
+
+@keyframes sun {
+
+    9% {
+        filter: drop-shadow(-4px 3px 19px rgba(241, 139, 6, 0.479));
+        transition: 0.7s;
+
+    }
+
+    10% {
+        filter: drop-shadow(-4px 3px 21px rgba(241, 139, 6, 0.616));
+        transition: 0.7s;
+
+    }
+
+    13% {
+        filter: drop-shadow(-4px 3px 23px rgba(241, 139, 6, 0.801));
+        transition: 0.7s;
+
+    }
+
+    15% {
+        filter: drop-shadow(-4px 3px 25px rgba(241, 139, 6, 0.973));
+        transition: 0.7s;
+
+    }
+
+    19% {
+        filter: drop-shadow(-4px 3px 29px rgb(241, 139, 6));
+        transition: 0.7s;
+
+    }
+
+    20% {
+        filter: drop-shadow(-4px 3px 25px rgba(241, 139, 6, 0.938));
+        transition: 0.7s;
+
+    }
+
+    23% {
+        filter: drop-shadow(-4px 3px 23px rgba(241, 139, 6, 0.918));
+        transition: 0.7s;
+
+    }
+
+    25% {
+        filter: drop-shadow(-4px 3px 21px rgba(241, 139, 6, 0.87));
+        transition: 0.7s;
+
+    }
+
+    29% {
+        filter: drop-shadow(-4px 3px 19px rgba(241, 139, 6, 0.849));
+        transition: 0.7s;
+
+    }
+
+    30% {
+        filter: drop-shadow(-4px 3px 17px rgba(241, 139, 6, 0.795));
+        transition: 0.7s;
+
+    }
+
+    33% {
+        filter: drop-shadow(-4px 3px 15px rgba(241, 139, 6, 0.815));
+        transition: 0.7s;
+
+    }
+
+    35% {
+        filter: drop-shadow(-4px 3px 13px rgba(241, 139, 6, 0.774));
+        transition: 0.7s;
+
+    }
+
+    39% {
+        filter: drop-shadow(-4px 3px 11px rgba(241, 139, 6, 0.692));
+        transition: 0.7s;
+
+    }
+
+
+    40% {
+        filter: drop-shadow(-4px 3px 9px rgba(241, 139, 6, 0.705));
+        transition: 0.7s;
+
+    }
+
+    43% {
+        filter: drop-shadow(-4px 3px 7px rgba(241, 139, 6, 0.699));
+        transition: 0.7s;
+
+    }
+
+    45% {
+        filter: drop-shadow(-4px 3px 5px rgba(241, 139, 6, 0.616));
+        transition: 0.7s;
+
+    }
+
+    49% {
+        filter: drop-shadow(-4px 3px 3px rgba(241, 139, 6, 0.658));
+        transition: 0.7s;
+
+    }
+
+    50% {
+        filter: drop-shadow(-4px 3px 5px rgba(241, 139, 6, 0.671));
+        transition: 0.7s;
+
+    }
+
+    53% {
+        filter: drop-shadow(-4px 3px 7px rgba(241, 139, 6, 0.767));
+        transition: 0.7s;
+
+    }
+
+    55% {
+        filter: drop-shadow(-4px 3px 9px rgba(241, 139, 6, 0.801));
+        transition: 0.7s;
+
+    }
+
+    59% {
+        filter: drop-shadow(-4px 3px 11px rgba(241, 139, 6, 0.863));
+        transition: 0.7s;
+
+    }
+
+    60% {
+        filter: drop-shadow(-4px 3px 13px rgba(241, 139, 6, 0.973));
+        transition: 0.7s;
+
+    }
+
+    63% {
+        filter: drop-shadow(-4px 3px 15px rgba(241, 139, 6, 0.836));
+        transition: 0.7s;
+
+    }
+
+    65% {
+        filter: drop-shadow(-4px 3px 17px rgba(241, 139, 6, 0.781));
+        transition: 0.7s;
+
+    }
+
+    69% {
+        filter: drop-shadow(-4px 3px 19px rgba(241, 139, 6, 0.678));
+        transition: 0.7s;
+
+    }
+
+    70% {
+        filter: drop-shadow(-4px 3px 21px rgba(241, 139, 6, 0.568));
+        transition: 0.7s;
+
+    }
+
+    73% {
+        filter: drop-shadow(-4px 3px 23px rgba(241, 139, 6, 0.61));
+        transition: 0.7s;
+
+    }
+
+    75% {
+        filter: drop-shadow(-4px 3px 25px rgba(241, 139, 6, 0.486));
+        transition: 0.7s;
+
+    }
+
+    79% {
+        filter: drop-shadow(-4px 3px 27px rgba(241, 139, 6, 0.473));
+        transition: 0.7s;
+
+    }
+
+    80% {
+        filter: drop-shadow(-4px 3px 29px rgba(241, 139, 6, 0.541));
+        transition: 0.7s;
+
+    }
+
+    83% {
+        filter: drop-shadow(-4px 3px 27px rgba(241, 139, 6, 0.651));
+        transition: 0.7s;
+
+    }
+}
+
+.cloud {
+    position: relative;
+}
+
+.cloud .cloud-1 {
+    position: absolute;
+    right: 0;
+    width: 147px;
+}
+
+.cloud .cloud-2 {
+    position: absolute;
+    right: 1239px;
+    width: 147px;
+}
+
+.cloud .cloud-3 {
+    position: absolute;
+    right: 69;
+    width: 147px;
+}
+
+.cloud .cloud-4 {
+    position: absolute;
+    right: 99px;
+    width: 147px;
+}
+
+.cloud .cloud-5 {
+    position: absolute;
+    right: 733px;
+    width: 347px;
+}
+
+.cloud .cloud-6 {
+    position: absolute;
+    right: 555px;
+    width: 147px;
+}
+
+.cloud .cloud-7 {
+    position: absolute;
+    right: 197px;
+    width: 177px;
+}
+
+.cloud .cloud-8 {
+    position: absolute;
+    right: 979px;
+    width: 147px;
+}
+
+.cloud .cloud-9 {
+    position: absolute;
+    right: 799px;
+    width: 233px;
+}
+
+.cloud .cloud-10 {
+    position: absolute;
+    right: 733px;
+    width: 147px;
+}
+
+.cloud .cloud-11 {
+    position: absolute;
+    right: 899px;
+    width: 127px;
+}
+
+.cloud .cloud-12 {
+    position: absolute;
+    right: 119px;
+    width: 117px;
+}
+
+.cloud .cloud-13 {
+    position: absolute;
+    right: 439px;
+    width: 107px;
+}
+
+.cloud .cloud-14 {
+    position: absolute;
+    right: 539px;
+    width: 99px;
+}
+
+.cloud .wather-1 {
+    position: absolute;
+    left: 185px;
+}
+
+.cloud .wather-3 {
+    position: absolute;
+    left: 459px;
+}
